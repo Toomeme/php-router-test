@@ -1,0 +1,62 @@
+<div class="panel panel-gc-blue">
+	<div class="panel-heading">
+		<h3 class="panel-title">Related Terms</h3>
+	</div>
+	<div class="panel-body">
+	
+		<small>	
+            <a href="https://www.goodwin.edu/glossary/advanced-manufacturing">Advanced Manufacturing</a>,
+            <a href="https://www.goodwin.edu/glossary/autocad">AutoCAD</a>,
+            <a href="https://www.goodwin.edu/glossary/calibration-technician">Calibration Technician</a>,
+            <a href="https://www.goodwin.edu/glossary/cnc-101-courses">CNC 101 Courses</a>, 
+             <a href="https://www.goodwin.edu/glossary/cnc-machining">CNC Machining</a>,  
+            <a href="https://www.goodwin.edu/glossary/cnc-machinist">CNC Machinist</a>,  
+			<a href="https://www.goodwin.edu/glossary/facilities-supervisor">Facilities Supervisor</a>,
+			<a href="https://www.goodwin.edu/glossary/first-line-supervisor">First Line Supervisor</a>,
+            <a href="https://www.goodwin.edu/glossary/edm-cutting">EDM Cutting</a>,
+            <a href="https://www.goodwin.edu/glossary/electrician-schools">Electrician Schools</a>,
+            <a href="https://www.goodwin.edu/glossary/ev3">EV3</a>,
+            <a href="https://www.goodwin.edu/glossary/hvac-certifications">HVAC Certifications</a>,
+            <a href="https://www.goodwin.edu/glossary/hvac-schools">HVAC Schools</a>,
+			<a href="https://www.goodwin.edu/glossary/inspection-supervisor">Inspection Supervisor</a>,
+			<a href="https://www.goodwin.edu/glossary/inventory-manager">Inventory Manager</a>,
+			<a href="https://www.goodwin.edu/glossary/learn-to-weld">Learn to Weld</a>,
+			<a href="https://www.goodwin.edu/glossary/logistician">Logistician</a>,
+            <a href="https://www.goodwin.edu/glossary/logistics-analysts">Logistics Analyst</a>,
+			<a href="https://www.goodwin.edu/glossary/mach-3-cnc-control-software">Mach 3 CNC Control Software</a>,
+			<a href="https://www.goodwin.edu/glossary/maintenance-supervisor">Maintenance Supervisor</a>,
+            <a href="https://www.goodwin.edu/glossary/manufacturing-quality-inspector">Manufacturing Quality Inspector</a>,
+            <a href="https://www.goodwin.edu/glossary/material-review-controller">Material Review Controller</a>,
+            <a href="https://www.goodwin.edu/glossary/mechanic-schools">Mechanic Schools</a>,
+			<a href="https://www.goodwin.edu/glossary/mechatronics">Mechatronics</a>,
+            <a href="https://www.goodwin.edu/glossary/mig-welding">MIG Welding</a>,
+            <a href="https://www.goodwin.edu/glossary/milling-school">Milling School</a>,
+            <a href="https://www.goodwin.edu/glossary/plc">Programmable Logic Controllers(PLC)</a>,
+            <a href="https://www.goodwin.edu/glossary/procurement-specialist">Procurement Specialist</a>,
+            <a href="https://www.goodwin.edu/glossary/production-control-analyst">Production Control Analyst</a>,
+			<a href="https://www.goodwin.edu/glossary/production-controller">Production Controller</a>,
+			<a href="https://www.goodwin.edu/glossary/production-manager">Production Manager</a>,
+			<a href="https://www.goodwin.edu/glossary/purchasing-agent">Purchasing Agent</a>,
+            <a href="https://www.goodwin.edu/glossary/purchasing-analyst">Purchasing Analyst</a>,
+            <a href="https://www.goodwin.edu/glossary/quality-assurance-supervisor">Quality Assurance Supervisor</a>,
+            <a href="https://www.goodwin.edu/glossary/quality-auditor">Quality Auditor</a>,
+            <a href="https://www.goodwin.edu/glossary/quality-consultant">Quality Consultant</a>,
+            <a href="https://www.goodwin.edu/glossary/quality-controller">Quality Controller</a>,
+            <a href="https://www.goodwin.edu/glossary/quality-customer-service-representative">Quality Customer Service Representative</a>,
+            <a href="https://www.goodwin.edu/glossary/quality-supervisor">Quality Supervisor</a>,
+            <a href="https://www.goodwin.edu/glossary/quality-technician">Quality Technician</a>,
+            <a href="https://www.goodwin.edu/glossary/receiving-inspector">Receiving Inspector</a>,
+            <a href="https://www.goodwin.edu/glossary/rpa">Robotics Process Automation (RPA)</a>,
+            <a href="https://www.goodwin.edu/glossary/shipping-and-receiving-analyst">Shipping and Receiving Analyst</a>,
+			<a href="https://www.goodwin.edu/glossary/shipping-and-receiving-supervisor">Shipping and Receiving Supervisor</a>,
+            <a href="https://www.goodwin.edu/glossary/storage-and-distribution-manager">Storage and Distribution Manager</a>,
+            <a href="https://www.goodwin.edu/glossary/supply-chain-manager">Supply Chain Manager</a>,
+            <a href="https://www.goodwin.edu/glossary/tig-welding">TIG Welding</a>,
+            <a href="https://www.goodwin.edu/glossary/welder">Welder</a>,
+            <a href="https://www.goodwin.edu/glossary/welding-101">Welding 101 Classes</a>,
+            <a href="https://www.goodwin.edu/glossary/welding-bootcamp">Welding Bootcamp</a>,
+            <a href="https://www.goodwin.edu/glossary/workforce-readiness-training">Workforce Readiness Training</a>,
+            <a href="https://www.goodwin.edu/glossary/zero-tolerance-machining">Zero Tolerance Machining</a>
+        </small>
+	</div>
+</div>

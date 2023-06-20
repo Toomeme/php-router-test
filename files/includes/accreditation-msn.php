@@ -1,0 +1,1 @@
+<p class="small">The master's degree program in Nursing at Goodwin University is accredited by the <a href="https://www.aacnnursing.org/CCNE">Commission on Collegiate Nursing Education</a> (CCNE). Goodwin University is a member of <a href="http://nc-sara.org/sara-states-institutions">SARA</a> and therefore can offer our MSN program to residents of other SARA states.</p>

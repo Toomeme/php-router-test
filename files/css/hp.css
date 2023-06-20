@@ -1,0 +1,194 @@
+#positioning-statement {
+	text-align:center;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top:5%;
+	padding-bottom: 5%;
+	color:#fff;
+	background: #005cb9 url(https://www.goodwin.edu/files/images/hp/positioning-statement.jpg) no-repeat center center/cover;
+	font-size: 1.5em;
+}
+.positioning-intro {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+#positioning-statement a{
+	color: #fff;
+}
+
+h3 {line-height:1.25;}
+
+h3 a:link, .h4 a:link, h3 a:visited, .h4 a:visited {color:#333;}
+    .intro-copy {
+        margin-bottom: 2em;
+    }
+
+.majors-button {
+        background: #b1ff6c;
+        background: -moz-linear-gradient(top, #b1ff6c 0%, #68be3d 100%);
+        background: -webkit-linear-gradient(top, #b1ff6c 0%,#68be3d 100%);
+        background: linear-gradient(to bottom, #b1ff6c 0%,#68be3d 100%);
+        color: #333 !important;
+        border-radius: 30px;
+        box-shadow: 0px 2px 5px #999;
+        font-size: 1em;
+        font-weight: bold;
+        padding: .5em 1em .5em 1em;
+        display: inline-block;
+        position: absolute;
+        bottom: 1em;
+        transform: scale(0.75);
+        opacity: 0;
+    }
+.majors-button:hover {
+        background: #b1ff6c;
+        background: -moz-linear-gradient(top, #b1ff6c 20%, #68be3d 100%);
+        background: -webkit-linear-gradient(top, #b1ff6c 20%,#68be3d 100%);
+        background: linear-gradient(to bottom, #b1ff6c 20%,#68be3d 100%);
+    }
+.major-box-wrapper:hover .majors-button {
+        transform: scale(1);
+    transition: all 0.1s ease-out 0.5s;
+    opacity: 1;
+    transform: scale(1);
+    }
+    
+#program-picker {
+font-size: 1.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border: 1px solid transparent;
+    background-color: rgb(0 0 0 / 5%);
+    color: #005cb9;
+}
+.majors-block {
+    
+    }    
+.major-box-wrapper {
+	padding: 10px;
+    border: 1px solid #888;
+    border-top: 10px solid #00a7e0; 
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0px 2px 10px #999;
+    height: 340px;
+    width: 31%;
+    display: inline-block;
+    margin-right: 1%;
+    margin-left: 00%;
+    margin-bottom: 1%;
+    vertical-align: top;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    transition: all 0.1s ease-in;
+    position: relative;
+    backface-visibility: hidden;
+}
+
+.major-box-wrapper:hover {
+    border-top: 10px solid rgb(54, 193, 255);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 10px #888;
+    transform: scale(1.1);
+    z-index: 10;
+    }
+
+.major-box-wrapper:hover .major-image-crop-box img {
+        transform: scale(1.1);
+    transition: all 0.1s ease-in;
+    }
+    .major-image-crop-box img {
+        transition: all 0.1s ease-out;
+        max-width: 120%;
+    }
+#major-boxes-wrapper {
+    width: 100%;
+    }
+.major-box-wrapper .major-box {
+	height: 80px;
+	overflow: hidden;
+	
+}
+.major-box-wrapper p, .major-box-wrapper ul, .major-box-wrapper ul li  {
+    margin-bottom:0; 
+    font-size: 0.78rem; 
+    color: #666;
+    list-style: none;
+    margin-left: 0;
+}
+.degree-levels {
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bold;
+    }
+.feature-list {
+        margin-left: 0 !important;
+        padding-left: 1.2em;
+        text-indent: -1.75em;   
+    }
+.feature-list li:before  {
+    content: '\2713';
+    margin: 0.5em 0.5em; 
+    color:#000;
+    font-weight: bold;
+    }
+    
+.major-image-crop-box {
+     height: 0px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    overflow: hidden;
+    padding-bottom: 50%;
+    margin-bottom: 1em;
+    
+    }
+.majors-bonus-box {
+            display: none;
+    }
+
+@media only screen and (max-width: 768px) {
+.major-box-wrapper {width:47%;}
+.majors-bonus-box {display: inline-block;}
+}
+        
+@media only screen and (max-width: 500px) {
+.major-box-wrapper {
+    width: 47%;
+    height: 220px;
+    }
+#program-picker {
+    font-size: 1em;
+    width: 100%;
+}
+.major-box-wrapper h3 {
+    font-size: 1em;    
+    }
+.major-image-crop-box {
+    }
+.feature-list {display:none;}
+}
+
+#nd-statement {font-size:1.5em;color:#FFF;padding:5% 10%;background:#005cb9 url("https://www.goodwin.edu/files/images/hp/nd-statement.jpg") no-repeat center center;background-size:cover;}
+#nd-statement a,#nd-statement h2 {color:#FFF;}
+
+.test-slider .test-slide {background:#005cb9; color:#FFF; margin-left:15px;margin-right:15px; box-shadow: 4px 4px 9px 0px rgba(0,0,0,0.4); text-align:center;}
+.test-slider .test-slide img {padding-bottom:10px; }
+.test-slider .test-caption {padding:15px;}
+.test-slider .test-caption a {color:#FFF;}
+.slick-track {display: flex !important; margin-bottom:25px;}
+.slick-slide {height: inherit !important;}
+.slick-dots {position:absolute; bottom:-35px; width:100%; list-style:none; text-align:center;margin-left:0;}
+.slick-dots li {position:relative; display:inline-block; width:20px; height:20px; margin: 0 5px; cursor:pointer;}
+.slick-dots li button {font-size:0; line-height:0; display:block; width:20px; height:20px; padding:5px; cursor:pointer; color:transparent; border:0;
+    outline:none; background:transparent;}
+.slick-dots li button:hover,.slick-dots li button:focus {outline:none;}
+.slick-dots li button:hover:before,.slick-dots li button:focus:before {opacity:1;}
+.slick-dots li button:before { font-size:20px; line-height:20px; position:absolute; top:0; left:0; width:20px; height:20px;  content: '\2022';  text-align: center;  opacity: .25;  color: black; -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale;}
+.slick-dots li.slick-active button:before { opacity: .75; color: black;}
+        
+.content-block.testimonials {padding-bottom:40px;}
+.content-block h2 {margin-bottom:18px;}
+.content-block.infographics {padding:50px 0;}
+.content-block.infographics img {width:225px;}
+.content-block.infographics .lead {font-size:24px; font-weight:bold; line-height:1.3;}
+

@@ -1,0 +1,290 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a:link, a:visited {
+	color: #333;
+	text-decoration: underline;
+	transition: all .3s ease-in-out;
+}
+a:hover, a:active, a:focus {
+	color: #0098dc;
+}
+img {
+	max-width: 100%;
+}
+header {
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #005cb9;
+    text-align:center;
+}
+#purple header {
+	background: #894596;
+}
+#content {
+	padding: 20px 10px;
+}
+#content.thanks {
+	text-align: center;
+}
+hr {border-color:#dedede;}
+p {
+	margin-bottom: 12px;
+}
+strong, .bold {
+	font-weight: bold;
+}
+h1 {
+	color: #005cb9;
+	margin-bottom: 15px;
+}
+#purple h1 {
+	color: #894596;
+}
+.h4 {
+	margin-bottom: 5px;
+}
+.m-b-0 {
+	margin-bottom: 0;
+}
+.m-b-5 {
+	margin-bottom: 5px;
+}
+.m-b-10 {
+	margin-bottom: 10px;
+}
+.m-b-20 {
+	margin-bottom: 20px;
+}
+ul, ol {
+	margin-left: 24px;
+}
+li {
+	padding-bottom: 3px;
+}
+.size28 {
+	font-size: 28px;
+}
+.size24 {
+	font-size: 24px;
+}
+.size20 {
+	font-size: 20px;
+}
+.size16 {
+	font-size: 16px;
+}
+.btn-default, a.btn-default {
+	position: relative;
+	padding: 8px 50px;
+	margin-top: 15px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 20px;
+	border-color: transparent;
+	transition: all .3s ease-in-out;
+	text-decoration: none;
+	background: #005cb9;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default:active:hover,
+a.btn-default:hover, a.btn-default:focus, a.btn-default:active, a.btn-default:active:hover {background:#006edd; color:#FFF; text-shadow:none;}
+
+.btn-default:active { top:4px; }
+
+#purple .btn-default, #purple a.btn-default {
+	background: #894596;
+}
+#purple .btn-default:hover, #purple .btn-default:focus, #purple .btn-default:active, #purple .btn-default:active:hover,
+#purple a.btn-default:hover, #purple a.btn-default:focus, #purple a.btn-default:active, #purple a.btn-default:active:hover  {
+	background: #46494e;
+}
+#purple .form-control:focus {
+	border-color: #894596;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(137, 69, 150, .6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(137, 69, 150, .6);
+}
+footer {
+	padding: 50px 0 15px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.form-group p {margin-bottom:5px;}
+
+.label-helper {
+	font-style: italic;
+	color: #888;
+	display: block;
+	margin-bottom: 4px;
+}
+.soc {
+	width: 70px;
+	height: 70px;
+	margin-right: 5px
+}
+fieldset {
+	margin-top: 10px;
+}
+fieldset.regular {margin-top:0;}
+fieldset.regular legend {
+		padding:0;
+	text-transform:none;
+	font-size:14px;
+	font-weight:bold;
+	border-bottom:none;
+	margin-bottom:5px;
+}
+legend {
+	text-transform: uppercase;
+	background: #FFF;
+	padding: 8px 0;
+	font-weight: 700;
+	border-bottom: 1px solid #cccccc;
+	font-size: 18px;
+}
+.checkbox, .radio {margin-top:0;}
+
+select option {
+	white-space: normal;
+}
+select.error option:disabled {
+	color: red;
+}
+
+textarea {
+	min-height: 200px;
+}
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+.video-container iframe, .video-container object, .video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.form-group.check4spam {
+	display: none;
+}
+.form .parent-error {border: 1px solid red; padding:5px 8px;}
+
+.form .error {
+	color: red;
+}
+.form label.error {
+	font-weight: normal;
+}
+.form input[type=text].error, .form select.error, .form textarea.error {
+	border: 1px solid red;
+}
+.gray-bg {
+	background-color: #efefef;
+	padding: 10px 15px;
+	border-bottom: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+}
+.subhead {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+  display: block;
+  margin: 2px 0;
+  padding: 4px;
+  width: 19em;
+}
+@media (min-width: 768px) {
+  .bootstrap-datetimepicker-widget.dropdown-menu.timepicker-sbs {
+    width: 38em;
+  }
+}
+@media (min-width: 992px) {
+  .bootstrap-datetimepicker-widget.dropdown-menu.timepicker-sbs {
+    width: 38em;
+  }
+}
+@media (min-width: 1200px) {
+  .bootstrap-datetimepicker-widget.dropdown-menu.timepicker-sbs {
+    width: 38em;
+  }
+}
+.bootstrap-datetimepicker-widget.dropdown-menu:before,
+.bootstrap-datetimepicker-widget.dropdown-menu:after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+}
+.bootstrap-datetimepicker-widget ul.list-unstyled {margin-bottom:0;}
+.bootstrap-datetimepicker-widget ul.list-unstyled {margin-left:0;}
+.bootstrap-datetimepicker-widget ul.list-unstyled li {padding-bottom:0;}
+.bootstrap-datetimepicker-widget a[data-action] {
+  padding: 6px 0;
+}
+.bootstrap-datetimepicker-widget .timepicker-hour,
+.bootstrap-datetimepicker-widget .timepicker-minute,
+.bootstrap-datetimepicker-widget .timepicker-second {
+  width: 54px;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 0;
+}
+.bootstrap-datetimepicker-widget table {
+  width: 100%;
+  margin: 0 !important;
+}
+
+.bootstrap-datetimepicker-widget table td,
+.bootstrap-datetimepicker-widget table th {
+  text-align: center;
+  border-radius: 4px;
+}
+.bootstrap-datetimepicker-widget table th {
+  height: 20px;
+  line-height: 20px;
+  width: 20px;
+}
+.bootstrap-datetimepicker-widget table td {
+  height: 54px;
+  line-height: 54px;
+  width: 54px;
+}
+.bootstrap-datetimepicker-widget table td.day {
+  height: 20px;
+  line-height: 20px;
+  width: 20px;
+}
+.bootstrap-datetimepicker-widget table thead tr:first-child th {cursor: pointer;}
+.bootstrap-datetimepicker-widget table td.day:hover,
+.bootstrap-datetimepicker-widget table td.hour:hover,
+.bootstrap-datetimepicker-widget table td.minute:hover,
+.bootstrap-datetimepicker-widget table td.second:hover {
+  background: #eeeeee;
+  cursor: pointer;
+}
+.bootstrap-datetimepicker-widget table td span {
+  display: inline-block;
+  width: 54px;
+  height: 54px;
+  line-height: 54px;
+  margin: 2px 1.5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.bootstrap-datetimepicker-widget table td span:hover {background: #eeeeee;}
+.bootstrap-datetimepicker-widget table td span.active,
+.bootstrap-datetimepicker-widget table td.active, 
+.bootstrap-datetimepicker-widget table td.active:hover {background-color:#005cb9;color:#FFF;}

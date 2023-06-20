@@ -1,0 +1,1 @@
+<p class="small">Goodwin University is a nonprofit institution of higher education and is accredited by the <a href="https://www.neche.org/">New England Commission of Higher Education</a> (NECHE), formerly known as the New England Association of Schools and Colleges (NEASC).</p>

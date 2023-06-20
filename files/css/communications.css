@@ -1,0 +1,154 @@
+.block {color:#FFF; background-size:cover; -moz-box-sizing:border-box; box-sizing:border-box; padding:0;}
+.block-lg {font-size:40px; height:380px; padding:25px;background-color:#005cb9;}
+.block-photo, .block-text {background-color:#00a7e0; background-repeat:no-repeat; background-position:center center; font-size:30px; height:190px;}
+.block-text a:link, .block-text a:visited,
+.block-photo a:link, .block-photo a:visited {
+	color:#FFF;
+	background-color:transparent;
+	width:100%;
+	height:100%;
+	display:block;
+	text-align:center;
+	line-height:180px;
+	text-decoration:none;
+	font-size:0;
+}
+
+.block-text a:hover,
+.block-photo a:hover {
+	color:#FFF;
+	background-color:#7fbc42;
+	font-size:30px;
+	-webkit-animation: block 1s 1;
+}
+.block-text a:active,
+.block-photo a:active {
+	color:#FFF;
+	background-color:#7fbc42;
+	font-size:30px;
+}
+
+.right-side-arrow:before,
+.right-side-arrow:after,
+.left-side-arrow:after,
+.left-side-arrow:before {
+	width:0px;
+	height:0px;
+	content: " ";
+	position:absolute;
+}
+.right-side-arrow:after {
+	border-top: solid transparent;
+	border-right: solid #005cb9;
+	border-bottom: solid transparent;
+	border-left: solid transparent;
+	border-width:34px;
+	top:50%;
+	margin:-34px;
+	left:-23px;
+	z-index:500;
+}
+.right-side-arrow:before {
+	border-top: solid transparent;
+	border-right: solid #FFF;
+	border-bottom: solid transparent;
+	border-left: solid transparent;
+	border-width:28px;
+	top:50%;
+	margin:-28px;
+	left:-29px;
+	z-index:400;
+}
+.left-side-arrow:after {
+	border-top: solid transparent;
+	border-right: solid transparent;
+	border-bottom: solid transparent;
+	border-left: solid #005cb9;
+	border-width:34px;
+	top:50%;
+	margin:-34px;
+	right:-23px;
+	z-index:500;
+}
+.left-side-arrow:before {
+	border-top: solid transparent;
+	border-right: solid transparent;
+	border-bottom: solid transparent;
+	border-left: solid #FFF;
+	border-width:28px;
+	top:50%;
+	margin:-28px;
+	right:-29px;
+	z-index:400;
+}
+
+@-webkit-keyframes block 
+{
+0% {opacity:0}
+100% {opacity:100}
+}
+
+.abby { background-image:url(https://www.goodwin.edu/files/images/marketing-communications/abby.jpg);}
+.bri { background-image:url(https://www.goodwin.edu/files/images/marketing-communications/bri.jpg);}
+.carling { background-image:url(https://www.goodwin.edu/files/images/marketing-communications/carling.jpg);}
+.charissa { background-image:url(https://www.goodwin.edu/files/images/marketing-communications/cbass.jpg);}
+.dan { background-image:url(https://www.goodwin.edu/files/images/marketing-communications/dan.jpg);}
+.erica { background-image:url(https://www.goodwin.edu/files/images/marketing-communications/erica.jpg);}
+.gabby { background-image:url(https://www.goodwin.edu/files/images/marketing-communications/gabby.jpg);}
+.geonna { background-image:url(https://www.goodwin.edu/files/images/marketing-communications/geonna.jpg);}
+.jacob { background-image:url(https://www.goodwin.edu/files/images/marketing-communications/toomey.jpg);}
+.kevin { background-image:url(https://www.goodwin.edu/files/images/marketing-communications/kevin.jpg);}
+.peter { background-image:url(https://www.goodwin.edu/files/images/marketing-communications/peter.jpg);}
+.phil { background-image:url(https://www.goodwin.edu/files/images/marketing-communications/phil.jpg);}
+.sammy { background-image:url(https://www.goodwin.edu/files/images/marketing-communications/sammy.jpg);}
+.sibley { background-image:url(https://www.goodwin.edu/files/images/marketing-communications/sibley.jpg);}
+.susanna { background-image:url(https://www.goodwin.edu/files/images/marketing-communications/susanna.jpg);}
+.commercials { background-image:url(https://www.goodwin.edu/files/images/marketing-communications/commercials.jpg);}
+.viewbook { background-image:url(https://www.goodwin.edu/files/images/marketing-communications/viewbook.png);}
+.facebook { background-image:url(https://www.goodwin.edu/files/images/marketing-communications/facebook.png);}
+.website { background-image:url(https://www.goodwin.edu/files/images/marketing-communications/website.png);}
+
+@media only screen and (max-width: 768px) { 
+.block-lg {height:150px; text-align:center;}
+.right-side-arrow { margin-right: 0; }
+.right-side-arrow:after {
+	border-top: solid #005cb9;
+	border-right: solid transparent;
+	border-bottom: solid transparent;
+	border-left: solid transparent;
+	border-width:30px;
+	top:178px;
+	margin:-30px;
+	left:50%;
+	}
+.right-side-arrow:before {
+	border-top: solid #FFF;
+	border-right: solid transparent;
+	border-bottom: solid transparent;
+	border-left: solid transparent;
+	border-width:36px;
+	top:184px;
+	margin:-36px;
+	left:50%;
+	}
+.left-side-arrow:after {
+	border-top: solid #005cb9;
+	border-right: solid transparent;
+	border-bottom: solid transparent;
+	border-left: solid transparent;
+	border-width:30px;
+	top:178px;
+	margin:-30px;
+	right:50%;
+	}
+.left-side-arrow:before {
+	border-top: solid #FFF;
+	border-right: solid transparent;
+	border-bottom: solid transparent;
+	border-left: solid transparent;
+	border-width:36px;
+	top:184px;
+	margin:-36px;
+	right:50%;
+	}
+}
