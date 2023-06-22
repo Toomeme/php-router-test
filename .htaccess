@@ -1,0 +1,20 @@
+RewriteEngine on
+
+#as long as the requested URL isn't an image or CSS file or script, tack on a trailing slash
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule [^/]$ %{REQUEST_URI}/ [L,R=301,NE]
+
+#if file doesn't exist, try grabbing the .php version of it and continue on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+?)/?$ $1.php [L]
+
+#if .php file doesn't exist, route to the index page with a 404 code and "error" param so index page knows to display error content
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ index.php?pageName=error [QSA,L]
+
+# existing files are routed to index.php
+RewriteCond %{REQUEST_URI} !\.(jpe?g|png|gif|css|js|pdf|doc|docx|pptx)$ [NC]
+RewriteRule ^(?!index\.php)(.+)$ index.php?pageName=$1 [NC,QSA,L]

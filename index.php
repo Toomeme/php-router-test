@@ -9,27 +9,6 @@
         <title>Career Focused University in CT | Goodwin University</title>
         <?php include
         $_SERVER[ 'DOCUMENT_ROOT']. "/files/includes/template-head.php"; ?>
-        <link rel="stylesheet" type="text/css" href="/files/css/hp.css">
-        <link rel="stylesheet" type="text/css" href="/files/css/slick.min.css">
-        <style type="text/css">
-            .slider {
-                --flexslider-padding: 37%;
-            }
-            .responsive-container {
-                width: 100%;
-                position: relative;
-                height: 0;
-                overflow: hidden;
-            }
-            h1 {
-                border-bottom:none;
-            }
-            @media (max-width: 768px) {
-                .slider {
-                    --flexslider-padding: 70%;
-                }
-            }
-        </style>
         <?php include $_SERVER[ 'DOCUMENT_ROOT'].
         "/files/includes/analytics.php"; ?>
     </head>
@@ -41,6 +20,34 @@
         "/files/includes/template-header-default.php"; ?>
         <?php include $_SERVER[ 'DOCUMENT_ROOT'].
         "/files/includes/template-topnav-new.php"; ?>
+<?php
+
+$request = $_SERVER['REQUEST_URI'];
+
+$page = $_GET["pageName"] ?? null;
+
+switch ($request) {
+
+    case '':
+    case '/':
+        require($_SERVER['DOCUMENT_ROOT'].'/homepage.php');
+        break;
+
+    default:
+       if ($page === "error"){ //direct to 404 page if we get a 404
+        require($_SERVER['DOCUMENT_ROOT'].'/404.php');
+       }
+        else if (substr($page, -1) === '/') //if page is an index, we need to specify index.php
+        {
+         require($_SERVER['DOCUMENT_ROOT']."/".$page.'index.php');   
+        }
+        else
+        {
+          require($_SERVER['DOCUMENT_ROOT']."/".$page);  //route plus .php will point to the right file
+        }
+        break;
+}
+        ?>
         
     </body>
 
